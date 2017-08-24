@@ -7,6 +7,7 @@ body{
     font: 14px/21px Arial, Helvetica, sans-serif;
     width:960px;
     margin:40px auto;
+
     }
 
 h1{
@@ -42,6 +43,8 @@ ul{
     list-style:none;
 
 
+
+
     }
 
 li{
@@ -49,24 +52,39 @@ li{
     display:inline;
     width:33%;
     height:auto;
+    -webkit-perspective: 500;
+
     }
 
 img{
     height: auto;
     border:10px solid white;
+    transform: rotateY(30deg);
+    transition-property: transform;
+
 
     }
 
 .movieinfo{
+    margin: -195px 0 0 55px;
+    position:relative;
+    width:200px;
+    height:250px;
     border:10px solid white;
     background-color: white;
+    transform: rotateY(30deg);
+    transition-property: transform;
+
+
+
+
     }
 
 h3{
     color:darkred;
     text-transform:uppercase;
     text-align: center;
-    padding-bottom:15px;
+    margin-bottom: 1em;
     }
 
 .movieinfo a{
@@ -81,6 +99,21 @@ h3{
     width:80px;
 
     }
+
+
+li:hover .movieinfo{
+transform: rotateY(0deg);
+    transition-property: transform;
+    transition: 1.5s;
+}
+
+li:hover img{
+transform: rotateY(0deg);
+    transition-property: transform;
+    transition: 1.5s;}
+
+
+
 
 
 
