@@ -61,6 +61,7 @@ img{
     border:10px solid white;
     transform: rotateY(30deg);
     transition-property: transform;
+    transition:1s;
 
 
     }
@@ -74,6 +75,7 @@ img{
     background-color: white;
     transform: rotateY(30deg);
     transition-property: transform;
+    transition: 1s;
 
 
 
@@ -104,14 +106,14 @@ h3{
 li:hover .movieinfo{
 transform: rotateY(0deg);
     transition-property: transform;
-    transition: 1.5s;
+    transition: 1s;
 }
+
 
 li:hover img{
 transform: rotateY(0deg);
     transition-property: transform;
-    transition: 1.5s;}
-
+    transition: 1s;}
 
 
 
